@@ -14,3 +14,18 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## API FIREBASE
+
+this project required Firebase. you can change this in:
+
+- lib/src/providers/productos_provider.dart
+  - \_url
+
+## API CLOUDINARY
+
+this project required upload images on Cloudinary. you can change this in:
+
+- lib/src/providers/productos_provider.dart
+  - subirImagen()
+    - url
