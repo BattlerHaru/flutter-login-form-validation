@@ -19,12 +19,22 @@ samples, guidance on mobile development, and a full API reference.
 
 this project required Firebase. you can change this in:
 
+DATABASE
+
 - lib/src/providers/productos_provider.dart
   - \_url
+
+API KEY for auth (token)
+do you need api key of conf your project
+
+- lib/src/providers/usuario_provider.dart
+  - \_firebaseToken
 
 ## API CLOUDINARY
 
 this project required upload images on Cloudinary. you can change this in:
+
+USER & USER-UPLOAD-PRESET
 
 - lib/src/providers/productos_provider.dart
   - subirImagen()
